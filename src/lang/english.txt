@@ -1259,7 +1259,9 @@ STR_CONFIG_SETTING_COMMAND_PAUSE_LEVEL_ALL_NON_LANDSCAPING      :all but landsca
 STR_CONFIG_SETTING_COMMAND_PAUSE_LEVEL_ALL_ACTIONS              :all actions
 STR_CONFIG_SETTING_ADVANCED_VEHICLE_LISTS                       :{LTBLUE}Use the advanced vehicle list: {ORANGE}{STRING1}
 STR_CONFIG_SETTING_LOADING_INDICATORS                           :{LTBLUE}Use loading indicators: {ORANGE}{STRING1}
+STR_CONFIG_SETTING_TIMETABLE_AUTOMATED				:{LTBLUE}Automatically manage timetables: {ORANGE}{STRING1}
 STR_CONFIG_SETTING_TIMETABLE_IN_TICKS                           :{LTBLUE}Show timetable in ticks rather than days: {ORANGE}{STRING1}
+STR_CONFIG_SETTING_TIMETABLE_SEPARATION				:{LTBLUE}Use timetable to ensure vehicle separation: {ORANGE}{STRING1}
 STR_CONFIG_SETTING_TIMETABLE_SHOW_ARRIVAL_DEPARTURE             :{LTBLUE}Show arrival and departure in timetables: {ORANGE}{STRING1}
 STR_CONFIG_SETTING_QUICKGOTO                                    :{LTBLUE}Quick creation of vehicle orders: {ORANGE}{STRING1}
 STR_CONFIG_SETTING_DEFAULT_RAIL_TYPE                            :{LTBLUE}Default rail type (after new game/game load): {ORANGE}{STRING1}
@@ -3538,6 +3540,9 @@ STR_TIMETABLE_RESET_LATENESS_TOOLTIP                            :{BLACK}Reset th
 
 STR_TIMETABLE_AUTOFILL                                          :{BLACK}Autofill
 STR_TIMETABLE_AUTOFILL_TOOLTIP                                  :{BLACK}Fill the timetable automatically with the values from the next journey (Ctrl+Click to try to keep waiting times)
+
+STR_TIMETABLE_AUTOMATE						:{BLACK}Automate
+STR_TIMETABLE_AUTOMATE_TOOLTIP					:{BLACK}Manage the timetables automatically by updating the values for each journey
 
 STR_TIMETABLE_EXPECTED                                          :{BLACK}Expected
 STR_TIMETABLE_SCHEDULED                                         :{BLACK}Scheduled
